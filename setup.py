@@ -9,5 +9,5 @@ setup(name='thrift_test',
       package_data={
           '': ["*.md", "*.thrift", "*.txt"],
       },
-      install_requires=["thrift==0.13.0"]
+      install_requires=["thrift==0.13.0", "pythonnet==2.4.0"]
       )

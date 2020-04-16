@@ -97,7 +97,6 @@ if __name__ == '__main__':
 
     server = TServer.TThreadPoolServer(processor, transport, tfactory, pfactory)
     server.setNumThreads(5)
-    status = 0
     try:
         terminal_logger.info("----Starting Thrift Server Process at {0}:{1}----".format(server_ip, server_tcp))
         server.serve()

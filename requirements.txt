@@ -1,2 +1,2 @@
-ipdb==0.13.2
 thrift==0.13.0
+pythonnet==2.4.0
