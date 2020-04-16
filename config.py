@@ -1,5 +1,7 @@
 server_ip = '127.0.0.1'
 server_tcp = 9090
+init_tcp = 9091
+resp_tcp = 9092
 
 logging_conf = {
     'version': 1,
@@ -29,6 +31,15 @@ logging_conf = {
         'terminal': {
             'level': 'DEBUG',
             'handlers': ['console']
+        },
+        'async_response_server': {
+            'level': 'DEBUG',
+            'handlers': ['console']
+        },
+        'async_initial_server': {
+            'level': 'DEBUG',
+            'handlers': ['console']
         }
+
     }
 }

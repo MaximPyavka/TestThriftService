@@ -5,7 +5,7 @@ setup(name='thrift_test',
       author='Max Pyavka',
       author_email='kokoko@gmail.com',
       url='https://www.kokoko.com',
-      packages=['matrix', 'vector'],
+      packages=['matrix', 'vector', 'async_service'],
       package_data={
           '': ["*.md", "*.thrift", "*.txt"],
       },
